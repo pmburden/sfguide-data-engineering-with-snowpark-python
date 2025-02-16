@@ -2,10 +2,18 @@
 #export SNOWFLAKE_DEFAULT_CONNECTION_NAME="default"
 
 [default]
-account = "myaccount"
-user = "myuser"
+account = "szfuqwn-wj11528"
+user = "paulburden"
+authenticator = "snowflake"
 password = "mypassword"
-role = "HOL_ROLE"
-warehouse = "HOL_WH"
-database = "HOL_DB"
-schema = "ANALYTICS"
+## role = "HOL_ROLE"
+## warehouse = "HOL_WH"
+database = "test_streamlit"
+schema = "test_sch"
+
+[szfuqwn-wj11528]
+account = "szfuqwn-wj11528"
+user = "paulburden"
+authenticator = "snowflake"
+database = "test_streamlit"
+schema = "test_sch"
